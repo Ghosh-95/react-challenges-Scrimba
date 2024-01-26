@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+header {
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    padding: 0.5rem;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    font-size: larger;
+}
+
+footer {
+    width: 100%;
+    padding: 2rem;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    background-color: #1d1b1b;
+}
