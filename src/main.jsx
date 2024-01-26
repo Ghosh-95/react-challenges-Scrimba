@@ -4,4 +4,4 @@ import App from './App.jsx'
 import './index.css'
 import { ReactComponent } from './challenges/Challenge1.jsx'
 
-ReactDOM.createRoot(document.getElementById('root')).render(ReactComponent)
+ReactDOM.createRoot(document.getElementById('root')).render(<ReactComponent />)
