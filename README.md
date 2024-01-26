@@ -4,7 +4,7 @@ A Practice Repository for challenges on Scrimba.
 
 
 1. Why do we need to `import React from "react"` in our files?
-'react' files contains all he necessary features React provides. We need to import them in order to use them in code base.
+'react' file contains all the necessary features React provides, including JSX. We need to import them in order to use them in code base.
 
 2. If I were to console.log(page) in index.js, what would show up?
 A ReactObject will be printed in the console, which contains all the information abotu the page markup.
