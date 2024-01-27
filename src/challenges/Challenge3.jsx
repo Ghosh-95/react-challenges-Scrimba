@@ -26,11 +26,11 @@ function MainComponent() {
                 <h1>Fun facts about React</h1>
 
                 <ul>
-                    <li><span> </span>Was first released in 2013</li>
-                    <li><span> </span>Was originally created by John Walke</li>
-                    <li><span> </span>Has well over 100k stars on GitHub</li>
-                    <li><span> </span>Is maintained by Facebook</li>
-                    <li><span> </span>Powers thousands of enterprise apps, includes mobile apps. </li>
+                    <li>Was first released in 2013</li>
+                    <li>Was originally created by John Walke</li>
+                    <li>Has well over 100k stars on GitHub</li>
+                    <li>Is maintained by Facebook</li>
+                    <li>Powers thousands of enterprise apps, includes mobile apps. </li>
 
                 </ul>
             </section>
