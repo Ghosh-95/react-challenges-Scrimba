@@ -1,13 +1,18 @@
 import '../css/challenge3.css';
+import logo from '../../public/img/logo.png'
+import reactBackground from '../../public/img/reactjs-icon\ 2.png'
+
+/**
+ * Though it was directed to use different component and import them to a different app component. But I prefer to keep it this way.
+ * 
+ */
 
 function NavComponent() {
     return (
         <header>
             <nav>
-                <img src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png" alt="react-logo" />
-
-                <h1>React-Facts</h1>
-                <h2>React Course - Project 1</h2>
+                <img src={logo} alt="react-logo" />
+                <h1>React Course - Project 1</h1>
             </nav>
         </header>
     )
@@ -17,6 +22,7 @@ function MainComponent() {
     return (
         <main>
             <section>
+                <img src={reactBackground} alt="react-logo" className='section-image' />
                 <h1>Fun facts about React</h1>
 
                 <ul>
