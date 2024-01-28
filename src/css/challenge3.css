@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,6 +13,7 @@ nav {
     display: flex;
     align-items: center;
     color: #fff;
+    padding: 1rem;
 }
 
 nav img {
@@ -33,7 +34,7 @@ main section {
     padding: 5rem;
     background-color: #19191a;
     color: #fff;
-    height: 37.6rem;
+    height: 35.69rem;
 }
 
 section h1 {
@@ -61,7 +62,7 @@ ul li::marker {
     opacity: 0.7;
     position: absolute;
     right: 0;
-}
+} */
 
 /* 
 We can use background property to add backgrond image and position it

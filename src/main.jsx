@@ -4,5 +4,6 @@ import App from './App.jsx'
 import { ReactComponent } from './challenges/Challenge1.jsx'
 import Page from './challenges/challenge2.jsx';
 import ReactFact from './challenges/Challenge3.jsx';
+import BusinessCard from './challenges/Business Card/Card.jsx';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<ReactFact />)
+ReactDOM.createRoot(document.getElementById('root')).render(<BusinessCard />)

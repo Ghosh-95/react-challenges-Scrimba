@@ -1,6 +1,6 @@
 import '../css/challenge3.css';
-import logo from '../../public/img/logo.png'
-import reactBackground from '../../public/img/reactjs-icon\ 2.png'
+import logo from '/img/logo.png'
+import reactBackground from '/img/reactjs-icon\ 2.png'
 
 /**
  * Though it was directed to use different component and import them to a different app component. But I prefer to keep it this way.
