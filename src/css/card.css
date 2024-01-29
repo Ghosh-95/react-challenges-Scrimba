@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #252525;
+}
+
+.container {
+    background-color: #181717;
+    width: 18rem;
+    margin: 1rem auto;
+    border-radius: 0.7rem;
+}
+
+.image-wrapper img {
+    width: 100%;
+    border-top-right-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+}
+
+.bio-container {
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.bio-container h1 {
+    font-size: 1.5rem;
+}
+
+.bio-container h2 {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.btn {
+    margin: 1.5rem 0.8rem 0;
+    padding: 0.4rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-linkedin {
+    background-color: #137cc2;
+    color: #fff;
+}
+
+.btn i {
+    margin-right: 0.3rem;
+}
+
+.btn-linkedin i {
+    color: #fff;
+}
+
+.bio-desc {
+    padding: 1rem 1.3rem;
+    color: #fff;
+}
+
+.bio-desc h2 {
+    font-size: 1.2rem;
+    color: #b9b6b6;
+    margin-bottom: 0.5rem;
+}
+
+.bio-desc p {
+    font-size: 0.9rem;
+}
+
+.social-links {
+    padding: 0.5rem 1.2rem;
+    background-color: #000;
+    border-bottom-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+}
+
+.links {
+    margin: 0 auto;
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+
+.links li {
+    color: #c4c2c2;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.links li:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
