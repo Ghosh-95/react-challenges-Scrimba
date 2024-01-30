@@ -1,14 +1,20 @@
+function ArticleDesc({ heading, description }) {
+    console.log(heading, description);
+    return (
+        <article className="bio-desc">
+            <h2>{heading}</h2>
+
+            <p>{description}</p>
+        </article>
+    )
+}
+
 export default function CardBottom() {
     return (
         <>
-            <article className="bio-desc">
-                <h2>About</h2>
-                <p>A frontend developer by passion. I love to make interactive webapps with stunning visuals.</p>
-            </article>
-            <article className="bio-desc">
-                <h2>Interest</h2>
-                <p>I love to read books in my free time. And I like to solve challenges on Frontend Mentor.</p>
-            </article>
+            <ArticleDesc heading={"About"} description={"A frontend developer by passion. I love to make interactive webapps with stunning visuals."} />
+
+            <ArticleDesc heading={"Interests"} description={"I love to read books in my free time. And I like to solve challenges on Frontend Mentor."} />
 
             <article className="social-links">
                 <ul className="links">
@@ -19,6 +25,7 @@ export default function CardBottom() {
                     <li><i className="fa-brands fa-instagram"></i></li>
                 </ul>
             </article>
+
         </>
     );
 };
