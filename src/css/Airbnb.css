@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /* Change font-family to poppins */
+    font-family: sans-serif;
 }
 
 header {
@@ -12,4 +15,54 @@ nav {
     display: flex;
     align-items: center;
     padding: 1.2rem;
+}
+
+#hero-section {
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+}
+
+.text-container {
+    margin-top: 3rem;
+}
+
+.text-container h1 {
+    color: #FF5A5F;
+    font-size: 2rem;
+}
+
+.text-container p {
+    margin-block: 0.6rem;
+}
+
+@media screen and (min-width: 740px) {
+    #hero-section {
+        margin: 3rem auto;
+    }
+
+    .hero-image {
+        width: 85%;
+    }
+
+    .text-container {
+        margin-top: 5rem;
+    }
+
+    .text-container h1 {
+        font-size: 3rem;
+    }
+
+    .text-container p {
+        font-size: 1.5rem;
+    }
 }
