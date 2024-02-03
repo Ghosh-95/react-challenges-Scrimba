@@ -1,6 +1,7 @@
 import AirBnbHeader from "./AirBnbHeader";
 import HeroComponent from "./Hero";
 import '../../css/Airbnb.css';
+import AirbnbCards from "./AbCard";
 
 export default function AirBnbApp() {
     return (
@@ -9,6 +10,7 @@ export default function AirBnbApp() {
 
             <main>
                 <HeroComponent />
+                <AirbnbCards />
             </main>
         </>
     );

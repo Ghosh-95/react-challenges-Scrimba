@@ -17,7 +17,8 @@ nav {
     padding: 1.2rem;
 }
 
-#hero-section {
+#hero-section,
+.card-section {
     width: 80vw;
     margin: 2rem auto;
 }
@@ -65,4 +66,49 @@ nav {
     .text-container p {
         font-size: 1.5rem;
     }
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-container {
+    width: 16rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem;
+}
+
+.card-container .card-image {
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-description {
+    padding: 0 0.8rem;
+    margin-block: 0.6rem;
+}
+
+.card-heading {
+    font-size: 1.2rem;
+}
+
+.card-heading img {
+    width: 7%;
+    margin-right: 0.2rem;
+}
+
+.card-heading .gray-text {
+    color: #707070;
+}
+
+.card-description p {
+    margin-block: 0.5rem;
+}
+
+.card-description .price {
+    font-size: 0.95rem;
 }
