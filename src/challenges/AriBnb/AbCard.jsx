@@ -1,39 +1,4 @@
-const data = [
-    {
-        title: 'Katie Zaferes',
-        imageSource: 'airbnb-image-12.png',
-        ratingObj: {
-            rating: '5.0',
-            numOfRating: 6,
-        },
-        place: 'USA',
-        lesson: 'Life lessons with Katie Zafers',
-        price: 136,
-    },
-    {
-        title: 'bride photo',
-        imageSource: 'airbnb-wedding-photography.png',
-        ratingObj: {
-            rating: '5.0',
-            numOfRating: 30,
-        },
-        place: 'USA',
-        lesson: 'Learning wedding photography',
-        price: 125,
-    },
-    {
-        title: 'mountain bike',
-        imageSource: 'airbnb-mountain-bike.png',
-        ratingObj: {
-            rating: '4.8',
-            numOfRating: 2,
-        },
-        place: 'USA',
-        lesson: 'Group Mountain Biking',
-        price: 50,
-    },
-]
-
+import { airbnbCardData } from './../../utilities/data'
 function Card({ props }) {
     const { title, imageSource, ratingObj, place, lesson, price } = props;
 
@@ -56,7 +21,7 @@ export default function AirbnbCards() {
     return (
         <section className="card-section">
             {
-                data.map(d => (<Card props={d} key={d.lesson} />))
+                airbnbCardData.map(d => (<Card props={d} key={d.lesson} />))
             }
         </section>
     );

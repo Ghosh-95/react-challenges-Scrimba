@@ -7,8 +7,16 @@
     font-family: sans-serif;
 }
 
-header {
+body {
+    position: relative;
+}
+
+.airbnb-header {
     box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+    position: fixed;
+    min-width: 100%;
+    top: 0;
+    background-color: #fff;
 }
 
 nav {
@@ -31,6 +39,7 @@ nav {
 
 .hero-image {
     width: 100%;
+    margin-top: 3rem;
 }
 
 .text-container {

@@ -68,6 +68,10 @@ React component is a JavaScript function that generally contains JSX that we can
 ## Challenge - Business Card
 ![business-card-image](./public/img/screenshot-card.png)
 
+## Challenge - Airbnb Clone
+![airbnb-clone-image](./public/img/airbnb-screenshot%20(2).png)
+![airbnb-clone-image](./public/img/airbnb-screenshot%20(1).png)
+
 ## Props Quiz:
 
 1. What do props help us accomplish?
@@ -77,29 +81,29 @@ Props reduces the size of code base.
 2. How do you pass a prop into a component?
 We can pass props to child component as we pass attributes to HTML elements. The value we pass through a prop, creates an object and we can read that object inside that component.
 
-```javascript
-    const obj = {firstName: 'Sushovan', age: 24};
+    ```javascript
+        const obj = {firstName: 'Sushovan', age: 24};
 
-    <Card props={obj}>
-```
+        <Card props={obj}>
+    ```
 
-3. Can I pass a custom prop (e.g. `blahblahblah={true}`) to a native
-   DOM element? (e.g. <div blahblahblah={true}>) Why or why not?
+3. Can I pass a custom prop (e.g. `blahblahblah={true}`) to a native DOM element? (e.g. `<div blahblahblah={true}>`) Why or why not?
 
-NO, we cannot pass a custom prop to a native HTML element. Because the JSX we use in React will eventually get converted into HTML markups. We can pass the attribute and vlues which are specified by the HTML only.
-A custom prop will be parsed as an error in the DOM as there is would not be such specifications that HTML provides.
+    NO, we cannot pass a custom prop to a native HTML element. Because the JSX we use in React will eventually get converted into HTML markups. We can pass the attribute and vlues which are specified by the HTML only.
+    
+    A custom prop will be parsed as an error in the DOM as there is would not be such specifications that HTML provides.
 
 4. How do I receive props in a component?
 We receive a prop as a function parameter in child component's function.
-```javascript
-    function Navbar(props) {
-        return (
-            <header>
-                {props.heading}
-            </header>
-        )
-    }
-```
+    ```javascript
+        function Navbar(props) {
+            return (
+                <header>
+                    {props.heading}
+                </header>
+            )
+        }
+    ```
 
 
 5. What data type is `props` when the component receives it?
